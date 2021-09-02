@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLECTION>
+<WTObject NAME="struct" TYPE="Unknown" STATUS="0">
+  <INSTANCE>
+    <name>Двигатель газотурбиный 1</name>
+    <number>1Т.00.00.000</number>
+    <uses> 
+		<INSTANCE>
+			<number>8999900861</number>
+			<name>Шайба 5.21 ГОСТ 13463-77</name>
+			<quantity>2</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Крышка</name>
+			<number>1.01.04.209</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Установка трубопроводов и электрожгута</name>
+			<number>1Т.11.00.010</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Редуктор</name>
+			<number>1Т.14.00.000</number>			
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999900863</number>
+			<name>Шайба 5 65Г 019 ГОСТ 6402-70</name>
+			<quantity>2</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Патрубок входной</name>
+			<number>1Т.00.01.001</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+	<uses>  
+		<INSTANCE>
+			<name>Установка топливорегулирующей аппаратуры и электрооборудования и вообще очень очень очень длинное наименование</name>
+			<number>1Т.07.00.000</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999901192</number>
+			<name>Шайба 2-5-28,5-Хим.Пас-ОСТ1 34529-80</name>
+			<quantity>2</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999900831</number>
+			<name>Шайба 1-5-35-Хим.Пас-ОСТ1 34529-80</name>
+			<quantity>6</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999901141</number>
+			<name>Гайка М5-6H.23.20Х13.086 ГОСТ 5927-70</name>
+			<quantity>18</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999900931</number>
+			<name>Шайба С.5.01.10.019 ГОСТ 11371-78</name>
+			<quantity>2</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999900119</number>
+			<name>Болт М5-6gх8.23.14Х17Н2.086 ГОСТ 7805-70</name>
+			<quantity>2</quantity>
+		</INSTANCE>
+	</uses>
+	<uses>  
+		<INSTANCE>
+			<name>Знак заводской</name>
+			<number>1Т.00.00.001</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Втулка</name>
+			<number>1.00.14.046</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Кольцо уплотнительное</name>
+			<number>ВД37.01.01.006</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+	<uses>  
+		<INSTANCE>
+			<number>TEST_NUMBER</number>
+			<name>Шайба 6.21 ГОСТ 13463-77</name>
+			<quantity>12</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>8999900513</number>
+			<name>Кольцо 011-014-19-2-061 ОСТ1 00980-80</name>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<name>Этикетка</name>
+			<number>1Т.00.00.000ЭТ</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+	<uses>  
+		<INSTANCE>
+			<name>Газогенератор</name>
+			<number>1Т.01.00.000</number>
+			<quantity>1</quantity>
+		</INSTANCE>
+	</uses>
+    <uses>  
+		<INSTANCE>
+			<number>TEST_NUMBER_2</number>
+			<name>Гайка М6-6H.23.20Х13.086 ГОСТ 5927-70</name>
+			<quantity>12</quantity>
+		</INSTANCE>
+	</uses>
+  </INSTANCE>
+</WTObject>
+</COLLECTION>

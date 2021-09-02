@@ -1,0 +1,54 @@
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath "net.sf.jasperreports:jasperreports-fonts:6.17.0"
+//    }
+//}
+
+plugins {
+    id 'java'
+}
+
+compileJava {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+group 'ru.samvv'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation ('net.sf.jasperreports:jasperreports:6.17.0')
+    implementation group: 'com.lowagie', name: 'itext', version: '2.1.7.js8'
+    implementation group: 'net.sf.jasperreports', name: 'jasperreports-fonts', version: '6.17.0'
+
+
+    implementation group: 'org.simpleframework', name: 'simple-xml', version: '2.7.1'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+jar {
+    archiveBaseName = project.name
+    manifest.attributes("Main-Class": "Main")
+    from {
+        configurations.compileClasspath.collect {
+            it.isDirectory() ? it : zipTree(it).matching{exclude{it.path.contains('META-INF') || it.path.equals("build")}}
+        }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+test {
+    useJUnitPlatform()
+}
